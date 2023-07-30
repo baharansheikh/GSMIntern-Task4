@@ -105,3 +105,29 @@ body{
     color: white;
 }
 
+.imgholder img{
+    width:350px;
+    height: 200px;
+}
+
+.textholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+.textholder p{
+    margin: 3px;
+}
+
+.textholder div{
+    margin: 10px 0px;
+}
+
+.imagebox{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
