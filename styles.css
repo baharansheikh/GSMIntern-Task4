@@ -65,7 +65,7 @@ body{
     margin: 40px 0px;
 }
 
-.item1{
+.item{
     display: flex;
     justify-content: space-between;
 }
@@ -79,7 +79,7 @@ body{
 }
 
 .image1 img{
-    width:600px;
+    width:630px;
     height: 320px;
 }
 
@@ -104,5 +104,4 @@ body{
     border-radius: 30px;
     color: white;
 }
-
 
