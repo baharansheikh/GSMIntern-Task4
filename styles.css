@@ -81,6 +81,7 @@ body{
 .image1 img{
     width:630px;
     height: 320px;
+    border: 2px solid black;
 }
 
 .styling1{
@@ -108,6 +109,7 @@ body{
 .imgholder img{
     width:350px;
     height: 200px;
+    border: 2px solid black;
 }
 
 .textholder{
@@ -128,6 +130,62 @@ body{
     display: flex;
     justify-content: space-around;
 
+}
+.styling3{
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    background-color:#1c1e37;
+    margin: 0px auto;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellowbox{
+    margin: 60px 0px -50px 0px;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #eaa12b;
+}
+
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#1c1e37;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.columns{
+    display: flex;
+    gap: 180px; 
+}
+
+.getinfo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.sign{
+    background-color: #e1622b;
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 5px 15px;
+}
+
+.getinfo div ::placeholder{
+    background-color: gray;
+    color: white;
+    outline: none;
+    border: none;
+    margin: 0px;
+    padding: 5px;
 }
 
 
