@@ -24,6 +24,12 @@ body{
     font-size: 12px;
     gap: 50px;
     align-items: baseline;
+    cursor: pointer;
+}
+
+.about p:hover{
+    text-decoration: underline;
+
 }
 
 
@@ -104,6 +110,11 @@ body{
     background-color: #e1622b;
     border-radius: 30px;
     color: white;
+    cursor: pointer;
+}
+
+.styling2:hover{
+    border: 2px dashed black;
 }
 
 .imgholder img{
@@ -142,6 +153,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.styling3:hover{
+
+    border: 2px dashed black;
+
 }
 
 .yellowbox{
@@ -166,10 +184,26 @@ body{
     gap: 180px; 
 }
 
+.acolumn p{
+    cursor: pointer;
+}
+
+.acolumn p:hover{
+    text-decoration: underline;
+}
+
 .getinfo{
     display: flex;
     justify-content: flex-start;
     gap: 15px;
+}
+
+.getinfo div{
+    cursor: pointer;
+}
+
+#email{
+    cursor: pointer;
 }
 
 .sign{
@@ -177,6 +211,10 @@ body{
     border-radius: 30px;
     font-size: 12px;
     padding: 5px 15px;
+}
+
+.sign:hover{
+    border: 2px dashed black;
 }
 
 .getinfo div ::placeholder{
