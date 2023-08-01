@@ -1,4 +1,5 @@
 body{
+    width: 100%;
     margin: 0px;
     background-color:white;
 }
@@ -24,12 +25,12 @@ body{
     font-size: 12px;
     gap: 50px;
     align-items: baseline;
+    /* TODO dont use pointer for wrapper */
     cursor: pointer;
 }
 
 .about p:hover{
     text-decoration: underline;
-
 }
 
 

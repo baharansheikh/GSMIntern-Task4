@@ -3,10 +3,11 @@
     <head>
         <title>Aesthetic Shop</title>
         <link rel="stylesheet" href="styles.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
 
     <body>
-
+        
 
         <!--header box on the top which has 2 colors-->
         <div class="header">
@@ -53,11 +54,13 @@
         <div class="items">
 
             <!--first item-->
-            <div class="item">
+            <div class="item" data-aos="fade-right" data-aos-offset="300" >
                 <!--(1)-->
-                <div class="image1">
+                <div class="image1" >
                     <img src="images/img1.jpg" alt="item1">
                 </div>
+
+                <!-- </div> -->
 
                 <!--(2)-->
                 <div class="text1">
@@ -84,7 +87,7 @@
             <br><br>
 
             <!--seconed item-->
-            <div class="item">
+            <div class="item" data-aos="fade-left" data-aos-offset="300">
 
                 <!--textbox in item2-->
                 <!--(1)-->
@@ -113,7 +116,7 @@
             <br><br>
 
             <!--third item-->
-            <div class="item">
+            <div class="item" data-aos="fade-right" data-aos-offset="300">
 
                 <!--(1)-->
                 <div class="image1">
@@ -150,7 +153,7 @@
         <div class="imagebox">
 
             <!--container box (1)-->
-            <div class="holder">
+            <div class="holder" data-aos="fade-right" data-aos-offset="300">
 
                 <!--image in the box-->
                 <div class="imgholder">
@@ -168,7 +171,7 @@
             </div>
 
             <!--container box (2)-->
-            <div class="holder">
+            <div class="holder" data-aos="fade-up" data-aos-offset="300">
 
                 <!--image in the box-->
                 <div class="imgholder">
@@ -187,7 +190,7 @@
             </div>
 
             <!--container box (3)-->
-            <div class="holder">
+            <div class="holder" data-aos="fade-left" data-aos-offset="300">
 
                 <!--image in the box-->
                 <div class="imgholder">
@@ -263,7 +266,9 @@
 
 
         </div>
-
-
+        <script  src="https://unpkg.com/aos@2.3.1/dist/aos.js" ></script>
+        <script>
+            AOS.init();
+        </script> 
     </body>
 </html>
